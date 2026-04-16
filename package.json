@@ -1,0 +1,12 @@
+{
+  "name": "smart-campus-hub",
+  "version": "1.0.0",
+  "description": "Smart Campus Operations Hub - Root Project",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && ./gradlew bootRun",
+    "start": "npm run frontend",
+    "dev": "echo \"Use 'npm run backend' and 'npm run frontend' in separate terminals.\""
+  }
+}
